@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bear Shopper | Compras desde USA</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f5f5f5;
+      color: #222;
+    }
+    header {
+      background: linear-gradient(90deg, #0a3161, #b31942);
+      color: #fff;
+      padding: 1.2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    nav a {
+      color: #fff;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      padding: 3rem 1rem;
+      text-align: center;
+      background: #fff;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      max-width: 600px;
+      margin: auto;
+      font-size: 1.1rem;
+    }
+    .categories {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .category {
+      background: #fff;
+      border-radius: 8px;
+      padding: 1.5rem;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+    .category:hover {
+      transform: translateY(-5px);
+    }
+    .category h3 {
+      margin-bottom: 0.5rem;
+      color: #0a3161;
+    }
+    footer {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+    .notice {
+      background: #b31942;
+      color: #fff;
+      text-align: center;
+      padding: 0.8rem;
+      font-weight: bold;
+    }
+    button {
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      background: #0a3161;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #062348;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="notice">
+    🐻 Próximamente: productos originales traídos desde USA 🇺🇸➡️🇨🇷
+  </div>
+
+  <header>
+    <h1>Bear Shopper</h1>
+    <nav>
+      <a href="#categorias">Categorías</a>
+      <a href="#como">Cómo comprar</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Compras inteligentes desde Estados Unidos</h2>
+    <p>
+      En Bear Shopper te traemos productos originales desde USA hasta Costa Rica.
+      Muy pronto podrás comprar calzado, ropa, bolsos, perfumes y cosméticos con total confianza.
+    </p>
+    <button>Próxima apertura</button>
+  </section>
+
+  <section id="categorias" class="categories">
+    <div class="category">
+      <h3>👟 Calzado</h3>
+      <p>Tenis y zapatos originales de USA.</p>
+    </div>
+    <div class="category">
+      <h3>👕 Ropa</h3>
+      <p>Moda para hombre, mujer y niños.</p>
+    </div>
+    <div class="category">
+      <h3>👜 Bolsos & Carteras</h3>
+      <p>Estilo, calidad y marcas reconocidas.</p>
+    </div>
+    <div class="category">
+      <h3>🌸 Perfumería</h3>
+      <p>Perfumes originales para todos.</p>
+    </div>
+    <div class="category">
+      <h3>💄 Cosméticos</h3>
+      <p>Maquillaje y cuidado personal.</p>
+    </div>
+  </section>
+
+  <section id="como" class="hero">
+    <h2>¿Cómo funcionará Bear Shopper?</h2>
+    <p>
+      1️⃣ Publicamos el catálogo disponible<br>
+      2️⃣ Hacés tu pedido por redes o WhatsApp<br>
+      3️⃣ Traemos el producto desde USA<br>
+      4️⃣ Entregamos en Costa Rica
+    </p>
+  </section>
+
+  <section id="contacto" class="hero">
+    <h2>Contacto</h2>
+    <p>
+      📩 Escríbenos por Instagram, Facebook o TikTok<br>
+      🐻 @bearshoppercr<br>
+      Muy pronto habilitaremos pedidos directos desde la web.
+    </p>
+  </section>
+
+  <footer>
+    © 2026 Bear Shopper · Compras desde USA · Costa Rica
+  </footer>
+
+</body>
+</html>
